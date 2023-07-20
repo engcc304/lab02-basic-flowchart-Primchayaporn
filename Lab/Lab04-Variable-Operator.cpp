@@ -32,7 +32,7 @@ int main() {
     int hour ;
     double value, salary ;
     printf( "input the employyees ID(Max. 10 chars ): " ) ;
-    scanf( "%s", &id ) ;
+    scanf( "%s", id ) ;
 	printf( "Input the working hrs: " ) ;
 	scanf( "%d", &hour ) ;
 	printf( "Salary amount/hr: " ) ;
