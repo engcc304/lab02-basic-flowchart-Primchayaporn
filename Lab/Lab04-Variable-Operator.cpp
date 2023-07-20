@@ -27,17 +27,27 @@
 */
 #include <stdio.h>
 
-int main() {
-    char id[10];
-    int hour ;
-    double value, salary ;
-    printf( "input the employyees ID(Max. 10 chars ): " ) ;
-    scanf( "%s", id ) ;
-	printf( "Input the working hrs: " ) ;
-	scanf( "%d", &hour ) ;
-	printf( "Salary amount/hr: " ) ;
-	scanf( "%lf", &value ) ;
-	salary = value * hour;
-	printf( "\nEmployees ID = %s\nSalary = U$ %0.2f\n", id,salary ) ;
-    return 0 ;
-}//end main function
+int main()
+{
+    char employees_ID[10];
+    float the_working_hrs;
+    float salary;
+    float SALARYHRS;
+
+    printf("Input the Employees ID(Max. 10 chars):\n");
+    scanf("%s", &employees_ID);
+
+    printf("Input the working hrs:\n");
+    scanf("%f", &the_working_hrs);
+
+    printf("Salary amount/hr:\n");
+    scanf("%f", &SALARYHRS);
+
+    salary = SALARYHRS * the_working_hrs;
+    
+    printf("Expected Output:\n");
+    printf("Employees ID = %s\n",employees_ID);
+    printf("Salary = U$ %0.2f\n",salary);
+    
+    return 0;
+}
