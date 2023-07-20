@@ -30,9 +30,9 @@
 int main()
 {
     char employees_ID[10];
-    float the_working_hrs;
-    float salary;
-    float SALARYHRS;
+    float the_working_hrs ;
+    float salary ;
+    float SALARYHRS ;
 
     printf("Input the Employees ID(Max. 10 chars):\n");
     scanf("%s", &employees_ID);
