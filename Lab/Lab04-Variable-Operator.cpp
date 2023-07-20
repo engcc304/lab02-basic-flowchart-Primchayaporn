@@ -28,8 +28,16 @@
 #include <stdio.h>
 
 int main() {
-
-    //--| YOUR CODE HERE
-
+    char id[10];
+    int hour ;
+    double value, salary ;
+    printf( "input the employyees ID(Max. 10 chars ): " ) ;
+    scanf( "%s", &id ) ;
+	printf( "Input the working hrs: " ) ;
+	scanf( "%d", &hour ) ;
+	printf( "Salary amount/hr: " ) ;
+	scanf( "%lf", &value ) ;
+	salary = value * hour;
+	printf( "\nEmployees ID = %s\nSalary = U$ %0.2f\n", id,salary ) ;
     return 0 ;
 }//end main function
