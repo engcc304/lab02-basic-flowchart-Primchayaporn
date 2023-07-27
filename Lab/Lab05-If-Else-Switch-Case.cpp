@@ -34,8 +34,6 @@
 */
 
 #include <stdio.h>
-
-#include <stdio.h>
  
 int main()
 {
@@ -44,29 +42,29 @@ int main()
     printf(" Enter score : ");
     scanf("%f", &score);
      
-    if(score >= 80){
-        printf("\n Grade : A !");
+    if(score >= 100 && score >= 80){
+        printf("A !");
     }
-    else if(score >= 75){
-        printf("\n Grade : B+ !");
+    else if(score >= 75 && score >= 79){
+        printf("B+ !");
     }
-    else if(score >= 70){
-        printf("\n Grade : B !");
+    else if(score >= 70 && score >= 74){
+        printf("B !");
     }
-    else if(score >= 65){
-        printf("\n Grade : C+ !");
+    else if(score >= 65 && score >= 69){
+        printf("C+ !");
     }
-    else if(score >= 60){
-        printf("\n Grade : C !");
+    else if(score >= 60 && score >= 64){
+        printf("C !");
     }
-    else if(score >= 55){
-        printf("\n Grade : D+ !");
+    else if(score >= 55 && score >= 59){
+        printf("D+ !");
     }
-    else if(score >= 50){
-        printf("\n Grade : D !");
+    else if(score >= 50 && score >= 54){
+        printf("D !");
     }
-    else if(score >= 49){
-        printf("\n Grade : F !");
+    else if(score >= 0 && score >= 49){
+        printf("F !");
     }
     else{
         printf("please enter number only.");
